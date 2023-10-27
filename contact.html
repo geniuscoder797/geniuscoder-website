@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My web</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="gig">
+            <nav class="navlink">
+              <div class="image-div">
+                <div>
+                  <img class="image" src="web-image/coderboy.jpg">
+                </div>
+  
+                <div class="span-div">
+                  <span>G</span>  
+                  <span>E</span>
+                  <span>N</span>
+                  <span>I</span>
+                  <span>U</span>
+                  <span>S</span>
+                  <span>c</span>
+                  <span>o</span>
+                  <span>D</span>
+                  <span>e</span>
+                  <span>r</span>
+                </div>
+  
+              </div>
+              <div class="list-div" id="listdiv">
+                <img src="svgS/close-svgrepo-com (1).svg" class="close" onclick="hidemenu()">
+                <ul>
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="service.html">SERVICE</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+              
+                </ul>
+              </div>
+              <img src="svgS/menu-alt-05-svgrepo-com.svg" class="close" onclick="showmenu()">
+            </nav>
+
+            <div class="h1-div">
+              <h1 class="first-head">
+                CONTACT US
+              </h1>
+              <h5>
+               Connect faster with Geniuscoder <br>
+               so you can get your web done as quickly as possible.
+              </h5>
+            </div>
+        </section>
+          <div class="grow-div">
+            <div>
+              <h3 class="grow">Grow Your Business 
+                 Faster With Us Today</h3>
+            </div>
+            <div class="form">
+              <form action="post-holder.php" method="post">
+                <input type="text" name="name" placeholder="Full name" required>
+                <input type="email" name="email" placeholder="Gmail" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea rows="8" name="Message" placeholder="Message" required></textarea>
+                <button type="submit" class="btn">Send</button>
+
+              </form>
+            </div>
+          </div>
+
+          <div class="contact-div">
+            <div class="iimg"><img src="svgS/phone-call-svgrepo-com (1).svg"></div>
+            <div class="digit"><h3>+234 7048082570, +234 9012358082</h3></div>
+            <div class="mg"><img src="svgS/gmail-old-svgrepo-com.svg"></div>
+            <div class="email"><h3>geniuscoder@gmail.com</h3></div>
+          </div>
+        <div class="doubt"><section class="big-2">
+          <h4>DOUBTING US?</h4>
+          <p>Don't look anywhere,this is the best place to book web developers to build your web.<br>
+            We are so reliable and our customers' needs come first</p>
+          <button><a href="service.html">Click For More Info</a></button>
+          <div>
+            <p>Also Available On The Following Media Below;</p>
+            <div class="closing-div">
+              <a href="#"><img src="svgS/facebook-svgrepo-com (2).svg"></a>
+              <a href="#"><img src="svgS/instagram-svgrepo-com.svg"></a>
+              <a href="#"><img src="svgS/linkedin-svgrepo-com (1).svg"></a>
+              <a href="#"><img src="svgS/twitter-svgrepo-com.svg"></a>
+              <a href="#"><img src="svgS/whatsapp-svgrepo-com.svg"></a>
+              
+            </div>
+          </div>
+        </section>
+      </div>
+
+
+      <script>
+
+        var listdiv = document.getElementById("listdiv")
+        function showmenu() {
+          listdiv.style.right = "0"
+        }
+        function hidemenu() {
+          listdiv.style.right = "-200px"
+        }
+
+      </script>
+
+
+        
+
+
+    </body>
+</html>
